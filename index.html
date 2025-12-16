@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Alejo 🤍</title>
+
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= PORTADA ================= -->
+  <section id="portada" class="vista activa">
+    <div class="contenedor">
+      <p class="texto-portada">
+        Hice este espacio para ti.<br />
+        Para los días buenos,<br />
+        los pesados,<br />
+        y los que nadie ve.
+      </p>
+
+      <button class="btn-principal" id="btnEntrar">Entrar</button>
+    </div>
+  </section>
+
+  <!-- ================= MOODS ================= -->
+  <section id="moods" class="vista">
+    <div class="contenedor">
+      <p class="titulo-secundario">¿Cómo estás hoy?</p>
+
+      <div class="grid-moods">
+        <button class="mood-btn" data-mood="feliz">🙂 Feliz</button>
+        <button class="mood-btn" data-mood="triste">😔 Triste</button>
+        <button class="mood-btn" data-mood="cansado">😴 Cansado</button>
+        <button class="mood-btn" data-mood="ansioso">😣 Ansioso</button>
+        <button class="mood-btn" data-mood="pensativo">💭 Pensativo</button>
+        <button class="mood-btn" data-mood="emocionado">🔥 Emocionado</button>
+        <button class="mood-btn" data-mood="estresado">😤 Estresado</button>
+        <button class="mood-btn" data-mood="nose">❔ No sé</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CARTA ================= -->
+  <section id="carta" class="vista">
+    <div class="contenedor carta-contenedor">
+
+      <img id="fotoMood" src="" alt="Recuerdo" class="foto-mood" />
+
+      <p id="textoCarta" class="texto-carta"></p>
+
+      <a id="linkCancion" href="#" target="_blank" class="link-cancion">
+        🎵 Escuchar canción
+      </a>
+
+      <button id="btnFotos" class="btn-suave">Ver recuerdos</button>
+      <button id="btnVolver" class="btn-secundario">← Cambiar mood</button>
+    </div>
+  </section>
+
+  <!-- ================= FOTOS ================= -->
+  <section id="fotos" class="vista">
+    <h2 class="titulo">Momentos que viven aquí</h2>
+
+    <div class="galeria">
+      <img src="assets/fotos/1.jpeg" class="foto">
+      <img src="assets/fotos/2.jpeg" class="foto">
+      <img src="assets/fotos/3.jpeg" class="foto">
+      <img src="assets/fotos/4.jpeg" class="foto">
+      <img src="assets/fotos/5.jpeg" class="foto">
+      <img src="assets/fotos/6.jpeg" class="foto">
+      <img src="assets/fotos/7.jpeg" class="foto">
+      <img src="assets/fotos/8.jpeg" class="foto">
+      <img src="assets/fotos/9.jpeg" class="foto">
+      <img src="assets/fotos/10.jpeg" class="foto">
+      <img src="assets/fotos/11.jpeg" class="foto">
+      <img src="assets/fotos/12.jpeg" class="foto">
+      <img src="assets/fotos/13.jpeg" class="foto">
+      <img src="assets/fotos/14.jpeg" class="foto">
+      <img src="assets/fotos/15.jpeg" class="foto">
+    </div>
+
+    <button id="btnFinal" class="btn-suave">Seguir</button>
+  </section>
+
+  <!-- ================= FINAL ================= -->
+  <section id="final" class="vista vista-final">
+    <div class="final-contenido">
+      <h2 class="final-titulo">Y si ningún mood encaja…</h2>
+
+      <p class="final-texto">
+        No tienes que estar siempre bien, ni fuerte, ni resuelto.
+        <br><br>
+        Incluso cuando sientes que vas lento, sigues avanzando.
+        Incluso cuando dudas, sigues siendo suficiente.
+        No vas lento, vas constante.
+        <br><br>
+        No estás quedandote atrás, estás construyendo algo importante.
+        No tienes que demostrar nada todo el tiempo.
+        <br><br>
+        Estoy Orgullosa de ti.
+        Incluso en los días que dudas.
+        Especialmente en los días que sigues a pesar de todo.
+        <br><br>
+        Aquí estoy.
+        Siempre.
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
